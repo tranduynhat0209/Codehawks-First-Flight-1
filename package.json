@@ -1,0 +1,20 @@
+{
+  "name": "2023-10-passwordstore",
+  "version": "1.0.0",
+  "description": "First Flights are 7 days long smart contracts auditing challenges characterised by smaller codebases and different rewards mechanisms from our standard smart contract auditing competitions, making them the perfect testing and learning ground for any aspirant smart contract security auditor.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test:hack-password": "npx hardhat test test/HackPassword.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.2",
+    "hardhat-preprocessor": "^0.1.5"
+  }
+}
